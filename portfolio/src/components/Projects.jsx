@@ -1,10 +1,12 @@
 
 function Project() {
-    return <div className="text-white">
-  <h1>Projects</h1>
+    return (
+    <div className="text-white p-8 bg-gray-900">
+  <h1 className="text-3xl">Projects</h1>
   
       
-    </div>;
+    </div>
+    )
   }
   
   export default Project;

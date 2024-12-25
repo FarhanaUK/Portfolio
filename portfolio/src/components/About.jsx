@@ -2,7 +2,7 @@
 function About() {
     return (
       <div className="flex justify-between items-center bg-gradient-to-r from-slate-500 to-slate-800 p-8">
-        <div className="w-1/2 pr-8">
+        <div className="w-1/2 pr-8 ml-4">
           <h1 className="text-3xl font-bold mb-4">About Me</h1>
           <p>
             Hi, I’m Farhana Aktar, a passionate Full Stack Developer committed

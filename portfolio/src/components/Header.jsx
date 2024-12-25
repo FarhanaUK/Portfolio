@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 
 function Header() {
-    return <div className="text-white">
+    return (<div className="text-white">
   <div className="text-white">
         <nav className="flex justify-center">
           <ul className="flex space-x-8">
@@ -56,7 +56,8 @@ function Header() {
 
   
       
-    </div>;
+    </div>
+    )
   }
   
   export default Header;
