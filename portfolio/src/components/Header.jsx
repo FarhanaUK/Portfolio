@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 
 function Header() {
-    return (<div className="text-white">
+    return (<div className="text-white p-4 mb-4">
   <div className="text-white">
         <nav className="flex justify-center">
           <ul className="flex space-x-8">
