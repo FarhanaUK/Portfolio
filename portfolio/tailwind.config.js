@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        orbitron: ['Noto Sans Mono', 'monospace'], 
+      }
+    },
   },
   plugins: [],
 }

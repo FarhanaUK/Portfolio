@@ -5,6 +5,7 @@ import Hero from '../src/components/Hero'
 import Projects from '../src/components/Projects'
 import Skills from '../src/components/Skills'
 import Header from './components/Header'
+import 'animate.css'
 
 
 import { Routes, Route} from 'react-router-dom'
@@ -12,6 +13,7 @@ import { Routes, Route} from 'react-router-dom'
 const App = () => {
   return (
     <div className="bg-slate-900">
+      
       <Header />
       <div>
         <main>

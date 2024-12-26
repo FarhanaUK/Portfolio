@@ -1,13 +1,14 @@
 import {Link} from 'react-router-dom'
 
 function Header() {
-    return (<div className="text-white p-4 mb-4">
-  <div className="text-white">
-        <nav className="flex justify-center">
-          <ul className="flex space-x-8">
+    return (
+    <div className="text-white p-2 mb-2 font-mono font-thin ">
+  <div className="text-white" >
+        <nav className="flex justify-center bg-black max-w-screen-lg mx-auto flex justify-center">
+          <ul className="flex space-x-20">
             <li>
               <Link
-                className="text-lg hover:text-teal-400
+                className="text-lg hover:text-gray-400
       transition-colors duration-200"
                 to="/"
               >
@@ -16,7 +17,7 @@ function Header() {
             </li>
             <li>
               <Link
-                className="text-lg hover:text-teal-400 
+                className="text-lg hover:text-gray-400 
      transition-colors duration-200"
                 to="/about"
               >
@@ -25,7 +26,7 @@ function Header() {
             </li>
             <li>
               <Link
-                className="text-lg hover:text-teal-400 
+                className="text-lg hover:text-gray-400 
      transition-colors duration-200"
                 to="/projects"
               >
@@ -34,7 +35,7 @@ function Header() {
             </li>
             <li>
               <Link
-                className="text-lg hover:text-teal-400 
+                className="text-lg hover:text-gray-400 
      transition-colors duration-200"
                 to="/skills"
               >
@@ -43,7 +44,7 @@ function Header() {
             </li>
             <li>
               <Link
-                className="text-lg hover:text-teal-400 
+                className="text-lg hover:text-gray-400 
      transition-colors duration-200"
                 to="/contact"
               >
