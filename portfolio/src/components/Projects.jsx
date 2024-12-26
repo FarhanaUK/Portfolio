@@ -8,7 +8,7 @@ function Projects() {
       github: "https://github.com/FarhanaUK/Note-X",
       liveDemo: "",
       image:
-        "/public/DALL·E 2024-09-06 11.12.43 - A sleek and professional logo design for a brand called 'Note X'. The logo should feature a clean and modern aesthetic, using a deep blue color simila.webp",
+        "/publiC/Screenshot 2024-12-26 150921.jpg"
     },
     {
       title: "AI Love Partner ",
@@ -24,7 +24,7 @@ function Projects() {
         "COMING SOON! This is a website that users can interact with an AI with memory enabling you to form a real life love relationship, this uses full-stack",
       github: "https://github.com/FarhanaUK/ai-project",
       liveDemo: "",
-      image: "/public/mypic.jpg",
+      image: "/public/fantasy-characters-experiencing-love.jpg",
     },
   ];
 
@@ -34,12 +34,14 @@ function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((projects, index) => (
           <div key={index} className="bg-black text-gray-800 shadow-xl rounded-xl overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300 ">
-            <img src={projects.image}
-             alt={projects.title}
-             className="w-full h-40 object-cover"/>
+            <img
+        src={projects.image}
+        alt={projects.title}
+        className={`w-full h-56 object-cover ${index === 2 ? 'object-top' : ''}`} 
+      />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-white">{projects.title}</h3>
-              <p className="text-white mb-2">{projects.description}</p>
+              <p className="text-gray-400 mb-2">{projects.description}</p>
               <div>
                 <a
                   href={projects.github}
