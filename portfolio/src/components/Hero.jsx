@@ -18,7 +18,7 @@ function Hero() {
         <a
         href="/Farhana_Aktar_2024-v-1.pdf"
         download
-        className=" bg-black font-mono border px-4 py-2 mt-4 mb-4 animate__animated animate__pulse">
+        className=" rounded-lg bg-black font-mono border px-4 py-2 mt-4 mb-4 animate__animated animate__pulse">
           Download Resume(CV)
         </a>
       </div>
