@@ -33,7 +33,7 @@ function Projects() {
       <h1 className="text-3xl font-bold mb-8 font-mono">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {projects.map((projects, index) => (
-          <div key={index} className="shadow-2xl shadow-indigo-500 bg-black text-gray-800 shadow-xl rounded-xl overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300 ">
+          <div key={index} className="shadow-2xl shadow-indigo-200 bg-black text-gray-800 shadow-xl rounded-xl overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300 ">
             <img
         src={projects.image}
         alt={projects.title}
