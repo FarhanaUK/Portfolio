@@ -1,9 +1,15 @@
 function About() {
     return (
-      <div className="flex justify-between items-center bg-gradient-to-r from-neutral-300 to-neutral-900 p-8 border-4 border-indigo-500 rounded-lg"> {/* Added border and rounded corners */}
-        <div className="w-1/2 pr-8 ml-4 shadow-2xl shadow-indigo-400">
-          <h1 className="text-3xl font-mono font-bold mb-4">About Me</h1>
-          <p className="font-mono">
+      <div className="flex justify-center items-center">
+      <div className="flex justify-between items-center bg-gradient-to-r from-neutral-300 to-neutral-900 shadow-[0px_20px_10px_rgba(0,0,0,1)] py-14 p-4">
+
+
+        <div className="w-4/5 pr-8 shadow-2xl shadow-indigo-400">
+
+
+
+          <h1 className="text-3xl font-mono font-bold ml-4 my-2">About Me</h1>
+          <p className="font-mono ml-4">
             Hi, I’m Farhana Aktar, a passionate Full Stack Developer committed
             to creating seamless web experiences. My journey began with a
             curiosity for how websites work, which led me to dive into both
@@ -11,7 +17,7 @@ function About() {
             technologies like React, Node.js, and Tailwind CSS, allowing me to
             build responsive and dynamic web applications.
           </p>
-          <p className="mt-4 font-mono">
+          <p className="my-4 font-mono ml-4">
             I am driven by problem-solving and the opportunity to transform
             ideas into functional, user-friendly solutions. Whether it’s
             developing a sleek landing page or architecting a complex web
@@ -20,13 +26,14 @@ function About() {
           </p>
         </div>
 
-        <div className="w-1/3">
+        <div className="w-4/5 flex justify-center">
           <img 
           src="/Screenshot 2024-12-26 164505.jpg"
           alt="Farhana Aktar"
-          height="324" width="262"
+          height="300" width="200"
           className="rounded-lg shadow-lg"/>
         </div>
+      </div>
       </div>
     );
 }

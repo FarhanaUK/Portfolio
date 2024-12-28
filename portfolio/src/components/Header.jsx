@@ -4,7 +4,7 @@ function Header() {
     return (
     <div className="text-white p-2 mb-2 font-mono font-thin ">
   <div className="text-white" >
-        <nav className="flex justify-center bg-black max-w-screen-lg mx-auto flex justify-center">
+        <nav className="flex justify-center mt-4">
           <ul className="flex space-x-20">
             <li>
               <Link
