@@ -55,8 +55,8 @@ function Projects() {
   ];
 
   return (
-    <div className="bg-neutral-900 p-8">
-      <h1 className="text-3xl font-mono text-white font-bold ">Projects</h1>
+    <div className="p-8">
+      <h1 className="text-3xl text-white font-bold ">Projects</h1>
       <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-8 px-4 gap-8">
         {projects.map((project, index) => (
           <div
@@ -74,14 +74,14 @@ function Projects() {
             </div>
             <div className="flex flex-col justify-between p-4 mx-4 mb-4 h-full">
               <h3 className="text-xl font-semibold text-white">{project.title}</h3>
-              <p className="text-sm text-gray-400 font-mono flex-grow mt-2">{project.description}</p> 
+              <p className="text-sm text-gray-400 flex-grow mt-2">{project.description}</p> 
               
               <div className="flex flex-wrap gap-1 mt-2">
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-mono text-blue-500 hover:text-blue-700 hover:underline"
+                  className="text-blue-500 hover:text-blue-700 hover:underline"
                 >
                   GitHub
                 </a>
@@ -92,7 +92,7 @@ function Projects() {
                       href={project.liveDemo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-mono text-blue-500 hover:text-blue-700 hover:underline"
+                      className="text-blue-500 hover:text-blue-700 hover:underline"
                     >
                       Live Demo
                     </a>
@@ -106,7 +106,7 @@ function Projects() {
                       href={project.install}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-mono text-blue-500 hover:text-blue-700 hover:underline"
+                      className="text-blue-500 hover:text-blue-700 hover:underline"
                     >
                       Install
                     </a>

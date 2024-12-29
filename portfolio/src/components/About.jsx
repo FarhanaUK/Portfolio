@@ -8,8 +8,8 @@ function About() {
 
 
 
-          <h1 className="text-3xl font-mono font-bold ml-4 my-2">About Me</h1>
-          <p className="font-mono ml-4">
+          <h1 className="text-3xl font-bold ml-4 my-2">About Me</h1>
+          <p className="ml-4">
             Hi, I’m Farhana Aktar, a passionate Full Stack Developer committed
             to creating seamless web experiences. My journey began with a
             curiosity for how websites work, which led me to dive into both
@@ -17,7 +17,7 @@ function About() {
             technologies like React, Node.js, and Tailwind CSS, allowing me to
             build responsive and dynamic web applications.
           </p>
-          <p className="my-4 font-mono ml-4">
+          <p className="my-4 ml-4">
             I am driven by problem-solving and the opportunity to transform
             ideas into functional, user-friendly solutions. Whether it’s
             developing a sleek landing page or architecting a complex web

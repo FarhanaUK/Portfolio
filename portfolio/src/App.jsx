@@ -12,7 +12,7 @@ import { Routes, Route} from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className="bg-neutral-900 min-h-screen ">
+    <div className="bg-neutral-900 min-h-screen font-mono">
       <Header />
         <main>
         
@@ -21,11 +21,10 @@ const App = () => {
               path="/"
               element={
                 <>
-                
                   <Hero />
                   <About />
-                  <Projects />
-                  <Skills />    
+                  <Skills />
+                  <Projects />    
                 </>
               }
             />
