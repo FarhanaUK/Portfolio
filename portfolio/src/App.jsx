@@ -4,6 +4,7 @@ import Contact from '../src/components/Contact'
 import Hero from '../src/components/Hero'
 import Projects from '../src/components/Projects'
 import Skills from '../src/components/Skills'
+import Header from './components/Header'
 import 'animate.css'
 
 
@@ -11,9 +12,10 @@ import { Routes, Route} from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <div>
+    <div className="bg-neutral-900 min-h-screen ">
+      <Header />
         <main>
+        
           <Routes>
             <Route
               path="/"
@@ -23,8 +25,7 @@ const App = () => {
                   <Hero />
                   <About />
                   <Projects />
-                  <Skills />
-                  <Contact />
+                  <Skills />    
                 </>
               }
             />
@@ -34,9 +35,10 @@ const App = () => {
             <Route path="skills" element={<Skills />} />
           </Routes>
         </main>
-        <div></div>
+        
+        <Contact />
       </div>
-    </div>
+   
   );
 };
 

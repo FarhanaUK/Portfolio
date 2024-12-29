@@ -1,9 +1,9 @@
-import Header from "./Header";
+
 
 function Hero() {
   return (
     <div className="bg-neutral-900">
-      <Header />
+   
       <div className="flex flex-col justify-center p-8 items-start text-white">
         <h1 className="text-5xl font-thin tracking-widest text-white animate__animated animate__fadeInLeft">
           FARHANA AKTAR

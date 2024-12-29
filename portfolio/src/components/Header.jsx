@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 function Header() {
     return (
-    <div className="text-white p-2 mb-2 font-mono font-thin ">
+    <div className=" p-2 mb-2 font-mono font-thin ">
   <div className="text-white" >
         <nav className="flex justify-center mt-4">
           <ul className="flex space-x-20">
@@ -10,7 +10,7 @@ function Header() {
               <Link
                 className="text-lg hover:text-gray-400
       transition-colors duration-200"
-                to="/"
+                to="/"  
               >
                 Home
               </Link>
