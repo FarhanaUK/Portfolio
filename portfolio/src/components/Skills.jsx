@@ -8,39 +8,38 @@ function Skills() {
     { image: "/firebase.svg", title: "Firebase" },
     { image: "/git.svg", title: "Git" },
     { image: "/nodejs-icon.svg", title: "Node.js" },
-    { image: "/public/sqlite-icon.svg", title: "SQLite" },
+    { image: "/sqlite-icon.svg", title: "SQLite" },
   ];
 
   return (
-    <div className="p-8">
-      <h1 className="text-3xl text-white font-bold mb-8">Skills</h1>
-      {/* Marquee container */}
-      <div className="rfm-marquee-container ">
-        <div className="rfm-marquee gap-x-10">
-          {/* Duplicate the skills list for seamless looping */}
+    <div className="relative overflow-hidden w-1/2 p-12 mx-auto">
+    
+
+      <div className="relative flex items-center w-full overflow-hidden">
+        <div className="flex animate-marquee">
           {skills.concat(skills).map((skill, index) => (
             <div
               key={index}
-              className="rfm-initial-child-container relative flex flex-col items-center border-t rounded-lg border border-[#1f223c] bg-[#11152c] w-28 h-28 justify-center"
+              className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-[#1f223c] bg-[#11212c] w-28 h-28 justify-center mx-4"
             >
-              <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
-              <div className="mb-2">
-                <img
-                  src={skill.image}
-                  alt={skill.title}
-                  className="w-10 h-10"
-                />
-              </div>
-              <div>
-                <h3 className="text-white font-semibold text-center">
-                  {skill.title}
-                </h3>
-              </div>
+           <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
+
+              <img
+                src={skill.image}
+                alt={skill.title}
+                className="w-10 h-10 mb-2"
+              />
+              <h3 className="text-white font-semibold text-center">
+                {skill.title}
+              </h3>
             </div>
           ))}
         </div>
-        {/* Overlay for gradient effect */}
-        <div className="rfm-overlay"></div>
+   
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute left-0 top-0 h-full w-[100px] bg-gradient-to-r from-black/50 to-transparent"></div>
+          <div className="absolute right-0 top-0 h-full w-[100px] bg-gradient-to-l from-black/50 to-transparent"></div>
+        </div>
       </div>
     </div>
   );

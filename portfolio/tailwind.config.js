@@ -8,8 +8,16 @@ export default {
     extend: {
       fontFamily: {
         orbitron: ['Noto Sans Mono', 'monospace'], 
-      }
-      
+      },
+      animation: {
+        marquee: "marquee 15s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      }      
     },
   },
   plugins: [],

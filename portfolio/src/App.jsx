@@ -13,6 +13,7 @@ import { Routes, Route} from 'react-router-dom'
 const App = () => {
   return (
     <div className="bg-neutral-900 min-h-screen font-mono">
+       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
       <Header />
         <main>
         
