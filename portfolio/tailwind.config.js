@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         orbitron: ['Noto Sans Mono', 'monospace'], 
       }
+      
     },
   },
   plugins: [],
