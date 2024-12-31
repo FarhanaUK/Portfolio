@@ -1,4 +1,4 @@
-function Projects() {
+function TopThree() {
   const projects = [
     {
       title: "Note X",
@@ -26,37 +26,12 @@ function Projects() {
       liveDemo: "seefsdf",
       image: "/fantasy-characters-experiencing-love.jpg",
     },
-    {
-      title: "Note X",
-      description:
-        "This app is a note-taking tool built as a Chrome extension, developed using front-end technologies.",
-      github: "https://github.com/FarhanaUK/Note-X",
-      liveDemo: "dfdf",
-      install:
-        "https://chromewebstore.google.com/detail/note-x/fgmijdmcadjncmhkkchkjpnadnibfodn",
-      image: "/1.png",
-    },
-    {
-      title: "AI Love Partner ",
-      description:
-        "COMING SOON! This is a website that users can interact with an AI with memory.",
-      github: "https://github.com/FarhanaUK/ai-project",
-      liveDemo: "sfdd",
-      image: "/mypic.jpg",
-    },
-    {
-      title: "AI Love Partner ",
-      description:
-        "COMING SOON! This is a website that users can interact with an AI with memory.",
-      github: "https://github.com/FarhanaUK/ai-project",
-      liveDemo: "seefsdf",
-      image: "/fantasy-characters-experiencing-love.jpg",
-    },
+
   ];
 
   return (
     <div className="p-8">
-      <h1 className="text-3xl text-white font-bold ">Projects</h1>
+      <h1 className="text-3xl text-white font-bold ">Projects (Top 3)</h1>
       <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-8 px-4 gap-8">
         {projects.map((project, index) => (
           <div
@@ -121,4 +96,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default TopThree;

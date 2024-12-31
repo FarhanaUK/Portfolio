@@ -1,10 +1,14 @@
 
-import About from '../src/components/About'
-import Contact from '../src/components/Contact'
+import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 import Hero from '../src/components/Hero'
-import Projects from '../src/components/Projects'
-import Skills from '../src/components/Skills'
+import TopThree from './components/TopThree'
+import Marquee from './components/Marquee'
 import Header from './components/Header'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+import Contact from './pages/Contact'
 import 'animate.css'
 
 
@@ -23,20 +27,22 @@ const App = () => {
               element={
                 <>
                   <Hero />
-                  <About />
-                  <Skills />
-                  <Projects />    
+                  <AboutMe />
+                  <Marquee />
+                  <TopThree />    
                 </>
               }
             />
-            <Route path="contact" element={<Contact />} />
-            <Route path="about" element={<About />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="skills" element={<Skills />} />
+             
+            <Route path="/about" element={<About/>} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
+          
           </Routes>
         </main>
         
-        <Contact />
+        <Footer />
       </div>
    
   );

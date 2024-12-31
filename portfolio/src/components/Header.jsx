@@ -21,7 +21,7 @@ function Header() {
      transition-colors duration-200"
                 to="/about"
               >
-                About Me
+                About
               </Link>
             </li>
             <li>

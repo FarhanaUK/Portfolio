@@ -1,4 +1,4 @@
-function About() {
+function AboutMe() {
     return (
       <div className="flex justify-center items-center">
       <div className="flex justify-between items-center bg-gradient-to-r from-neutral-300 to-neutral-900 shadow-[0px_20px_10px_rgba(0,0,0,1)] py-2 p-4">
@@ -38,4 +38,4 @@ function About() {
     );
 }
 
-export default About;
+export default AboutMe;

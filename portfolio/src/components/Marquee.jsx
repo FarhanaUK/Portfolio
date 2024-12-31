@@ -1,4 +1,4 @@
-function Skills() {
+function Marquee () {
   const skills = [
     { image: "/html.svg", title: "HTML5" },
     { image: "/css.svg", title: "CSS3" },
@@ -20,7 +20,7 @@ function Skills() {
           {skills.concat(skills).map((skill, index) => (
             <div
               key={index}
-              className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-[#1f223c] bg-[#11212c] w-28 h-28 justify-center mx-4"
+              className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-[#1f303c] bg-[rgb(78, 80, 80)] w-28 h-28 justify-center mx-4"
             >
            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
 
@@ -45,4 +45,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Marquee;
