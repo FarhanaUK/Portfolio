@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        orbitron: ['Noto Sans Mono', 'monospace'], 
+        orbitron: ['Orbitron', 'monospace'], 
       },
       animation: {
         marquee: "marquee 15s linear infinite",
@@ -17,7 +17,10 @@ export default {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
         },
-      }      
+      },   
+      backgroundImage: {
+        'about-bg': "url('./src/assets/bg.jpg')"
+      }   
     },
   },
   plugins: [],

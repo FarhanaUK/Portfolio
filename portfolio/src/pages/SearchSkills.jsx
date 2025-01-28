@@ -1,8 +1,8 @@
 
 import { FaSearch } from 'react-icons/fa'
 
-
-function SearchSkills ({value, setValue, handleSearch, onClick})  {
+  // eslint-disable-next-line react/prop-types
+function SearchSkills ({value, setValue, handleSearch, onClick})  { 
  
 
 
@@ -37,7 +37,7 @@ return (
         <FaSearch />
         </button>
         </div>
-        <button onClick={onClick} className='flex justify-end mt-2 text-slate-400 hover:text-white'>Show All</button>
+        <button onClick={onClick} className='mt-2 text-slate-400 hover:text-white'>Show All</button>
         </form>
     </div>
 )

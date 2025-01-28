@@ -1,4 +1,4 @@
-function TopThree() {
+function TopThree({showHeader = true}) {
   const projects = [
     {
       title: "Note X",
@@ -31,7 +31,7 @@ function TopThree() {
 
   return (
     <div className="p-8">
-      <h1 className="text-3xl text-white font-bold ">Projects (Top 3)</h1>
+      {showHeader && <h1 className="text-3xl text-white font-bold ">Projects (Top 3)</h1>}
       <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-8 px-4 gap-8">
         {projects.map((project, index) => (
           <div

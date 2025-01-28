@@ -37,7 +37,7 @@ function Skills() {
     { image: "/postman-icon-svgrepo-com.svg", title: "Postman" },
     { image: "/eslint-svgrepo-com.svg", title: "ESLint" },
     { image: "/state.png", title: "State Management" },
-    { image: "/TDD.png", title: "Test-Driven Development (TDD)" },
+    { image: "/TDD.png", title: "Test-Driven Development" },
     { image: "/responsive.png", title: "Responsive Design" },
     { image: "/security-safe-shield-svgrepo-com.svg", title: "Authentication" },
     { image: "/identity-and-access-management-svgrepo-com.svg", title: "Authorization"},
@@ -82,7 +82,7 @@ function Skills() {
         {skillsToDisplay.map((skill, index) => (
           <div
             key={index}
-            className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-indigo-900 bg-slate-700 w-28 h-28 justify-center mx-4"
+            className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-indigo-900 bg-slate-900 w-46 h-28 justify-center mx-4"
           >
             <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
             <img
