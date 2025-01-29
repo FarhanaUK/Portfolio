@@ -4,10 +4,10 @@ import Lottie from "lottie-react"
 function About() {
     return (
       <div 
-      className="flex flex-row bg-about-bg bg-cover bg-center text-white p-8 mx-2 mt-4 w-full" >
-        <section className='md:w-1/2'>
+      className="flex flex-col md:flex-row bg-about-bg bg-cover bg-center text-white p-10 mx-4 mt-8 rounded-lg" >
+        <section className='md:w-1/2 space-y-6'>
          
-          
+          <h2 className='text-3xl font-bold mb-4'>About Me</h2>
           <p className="mb-6 text-lg leading-relaxed">
             Hello, and welcome to my portfolio! 
               I’m Farhana, a Full Stack Developer with a passion for building intuitive and scalable web applications.  
@@ -24,8 +24,7 @@ function About() {
             Before I became a developer, I worked in <span className="italic">customer service   </span>
              and as a  <span className="italic">trainer</span> at <span className="font-semibold">Amazon,   </span>
               where I developed strong skills in communication, empathy, and conflict resolution.
-               These experiences taught me how to listen to user needs and explain technical concepts in accessible ways — 
-               skills that are invaluable when creating effective solutions.
+               These experiences taught me how to listen to user needs and explain technical concepts in accessible ways-skills that are invaluable when creating effective solutions.
           </p>
           
           <p className="mb-6 text-lg leading-relaxed">
@@ -42,8 +41,8 @@ function About() {
             Thanks for checking out my portfolio! Feel free to connect with me or explore my projects.  
           </p>
         </section>
-        <div className='flex justify-center items-center md:w-1/2'>
-          <Lottie animationData={laptop}/>
+        <div className='flex justify-center items-center md:w-1/2 mt-8 md:mt-0'>
+          <Lottie animationData={laptop} style={{ width: '800px', height: '800px'}}/>
         </div>
       </div>
       
