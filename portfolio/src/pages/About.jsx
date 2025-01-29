@@ -1,8 +1,11 @@
+import laptop from '../../src/assets/laptop.json'
+import Lottie from "lottie-react"
+
 function About() {
     return (
       <div 
-      className="flex item-left bg-about-bg bg-cover bg-center text-white p-8 mx-2 mt-4 w-full md:w-1/2" >
-        <section>
+      className="flex flex-row bg-about-bg bg-cover bg-center text-white p-8 mx-2 mt-4 w-full" >
+        <section className='md:w-1/2'>
          
           
           <p className="mb-6 text-lg leading-relaxed">
@@ -39,6 +42,9 @@ function About() {
             Thanks for checking out my portfolio! Feel free to connect with me or explore my projects.  
           </p>
         </section>
+        <div className='flex justify-center items-center md:w-1/2'>
+          <Lottie animationData={laptop}/>
+        </div>
       </div>
       
     );
