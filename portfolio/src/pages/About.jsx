@@ -7,7 +7,7 @@ function About() {
       className="flex flex-col md:flex-row bg-about-bg bg-cover bg-center text-white p-10 mx-4 mt-8 rounded-lg" >
         <section className='md:w-1/2 space-y-6'>
          
-          <h2 className='text-3xl font-bold mb-4'>About Me</h2>
+      
           <p className="mb-6 text-lg leading-relaxed">
             Hello, and welcome to my portfolio! 
               I’m Farhana, a Full Stack Developer with a passion for building intuitive and scalable web applications.  

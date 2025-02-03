@@ -18,9 +18,7 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },   
-      backgroundImage: {
-        'about-bg': "url('./src/assets/bg.jpg')"
-      }   
+     
     },
   },
   plugins: [],

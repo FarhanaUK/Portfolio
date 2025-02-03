@@ -10,14 +10,20 @@ import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import 'animate.css'
-
-
-import { Routes, Route} from 'react-router-dom'
+import background2 from '../src/assets/background2.json'
+import Lottie from 'lottie-react'
+import { Routes, Route, useLocation} from 'react-router-dom'
 
 const App = () => {
+
+  const location = useLocation()
+  const isAboutMe = location.pathname === '/'
   return (
     <div className="bg-neutral-900 min-h-screen font-mono flex flex-col">
        <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
+       <div className="absolute left-0 top-0 z-0">
+        {!isAboutMe && (<Lottie animationData={background2} style={{ width: '40%', height: '30%' }} />)}
+      </div>
       <Header />
         <main className='flex-grow'>
         

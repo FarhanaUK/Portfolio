@@ -5,7 +5,7 @@ function Hero() {
     <div>
    
       <div className="flex flex-col justify-center p-8 items-start text-white">
-        <h1 className="text-5xl font-thin tracking-widest text-white animate__animated animate__fadeInLeft">
+        <h1 className="text-5xl font-thin tracking-widest text-white animate__animated animate__fadeInLeft animate__delay-1s">
           FARHANA AKTAR
         </h1>
         <h2 className="text-3xl mt-4">
@@ -18,7 +18,7 @@ function Hero() {
         <a
         href="/Farhana_Aktar_2024-v-1.pdf"
         download
-        className=" rounded-lg bg-black border px-4 py-2 mt-4 mb-4 animate__animated animate__pulse">
+        className="rounded-lg border-transparent px-4 py-2 mt-4 mb-4 bg-transparent pulse-color-change">
           Download Resume(CV)
         </a>
       </div>
