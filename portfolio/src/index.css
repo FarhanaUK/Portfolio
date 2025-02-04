@@ -38,5 +38,7 @@
     animation: pulseColorChange 3s infinite ease-in-out, pulse 1s ease-in-out 1;
 }
 
-
+html {
+    overflow: scroll;
+}
 

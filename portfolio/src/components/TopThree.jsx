@@ -1,3 +1,6 @@
+
+
+
 function TopThree({showHeader = true}) {
   const projects = [
     {
@@ -45,6 +48,7 @@ function TopThree({showHeader = true}) {
                 src={project.image}
                 alt={project.title}
                 className="absolute inset-0 w-full h-full object-cover"
+               
               />
             </div>
             <div className="flex flex-col justify-between p-4 mx-4 mb-4 h-full">

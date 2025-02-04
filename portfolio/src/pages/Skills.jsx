@@ -78,11 +78,11 @@ function Skills() {
       <div>
         <SearchSkills value={search} setValue={setSearch} handleSearch={handleSearch} onClick={onClick}/>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-12 mt-8">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 auto-cols-min gap-12 mt-8">
         {skillsToDisplay.map((skill, index) => (
           <div
             key={index}
-            className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-indigo-900 bg-slate-900 w-46 h-28 justify-center mx-4"
+            className="flex-shrink-0 relative flex flex-col items-center border-t rounded-lg border border-indigo-900 bg-slate-900 w-32 h-28 justify-center mx-4"
           >
             <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
             <img
