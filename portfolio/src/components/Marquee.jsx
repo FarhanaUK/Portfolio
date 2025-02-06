@@ -12,7 +12,7 @@ function Marquee () {
   ];
 
   return (
-    <div className="relative overflow-hidden w-1/2 p-12 mx-auto">
+    <div className="relative overflow-hidden w-full md:w-3/4 lg:w-1/2 p-12 mx-auto">
     
 
       <div className="relative flex items-center w-full overflow-hidden">
@@ -27,9 +27,9 @@ function Marquee () {
               <img
                 src={skill.image}
                 alt={skill.title}
-                className="w-10 h-10 mb-2"
+                className="w-10 h-10 mb-2 md:w-12 md:h-12"
               />
-              <h3 className="text-white font-semibold text-center">
+              <h3 className="text-white font-semibold text-center text-sm md:text-base">
                 {skill.title}
               </h3>
             </div>

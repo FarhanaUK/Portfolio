@@ -2,10 +2,10 @@ import {Link} from 'react-router-dom'
 
 function Header() {
     return (
-    <div className=" p-2 mb-2 font-thin ">
+    <div className=" p-2 mb-2 font-thin z-10">
   <div className="text-white" >
-        <nav className="flex justify-center mt-4">
-          <ul className="flex space-x-20">
+        <nav className="mt-4">
+          <ul className="flex justify-center space-x-4 sm:space-x-6 md:space-x-10 lg:space-x-20 text-sm sm:text-base md:text-lg">
             <li>
               <Link
                 className="text-lg hover:text-gray-400
@@ -40,15 +40,6 @@ function Header() {
                 to="/skills"
               >
                 Skills
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-lg hover:text-gray-400 
-     transition-colors duration-200"
-                to="/contact"
-              >
-                Contact
               </Link>
             </li>
           </ul>

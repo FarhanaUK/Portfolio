@@ -33,9 +33,9 @@ function TopThree({showHeader = true}) {
   ];
 
   return (
-    <div className="p-8">
-      {showHeader && <h1 className="text-3xl text-white font-bold ">Projects (Top 3)</h1>}
-      <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-8 px-4 gap-8">
+    <div className="p-8 sm:p-8">
+      {showHeader && <h1 className="flex justify-center text-3xl text-white font-bold ">Projects (Top 3)</h1>}
+      <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -52,8 +52,8 @@ function TopThree({showHeader = true}) {
               />
             </div>
             <div className="flex flex-col justify-between p-4 mx-4 mb-4 h-full">
-              <h3 className="text-xl font-semibold text-white">{project.title}</h3>
-              <p className="text-sm text-gray-400 flex-grow mt-2">{project.description}</p> 
+              <h3 className="text-xl sm:text-2xl font-semibold text-white">{project.title}</h3>
+              <p className="text-sm sm:text-base text-gray-400 flex-grow mt-2">{project.description}</p> 
               
               <div className="flex flex-wrap gap-1 mt-2">
                 <a

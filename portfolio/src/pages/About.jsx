@@ -42,7 +42,7 @@ function About() {
           </p>
         </section>
         <div className='flex justify-center items-center md:w-1/2 mt-8 md:mt-0'>
-          <Lottie animationData={laptop} style={{ width: '800px', height: '800px'}}/>
+          <Lottie animationData={laptop}  style={{ width: '100%', maxWidth: '500px', height: 'auto'}} />
         </div>
       </div>
       

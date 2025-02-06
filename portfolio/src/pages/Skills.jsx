@@ -1,4 +1,4 @@
-import SearchSkills from "./SearchSkills";
+import SearchSkills from '.././components/SearchSkills';
 import { useState } from "react";
 
 function Skills() {
@@ -78,7 +78,7 @@ function Skills() {
       <div>
         <SearchSkills value={search} setValue={setSearch} handleSearch={handleSearch} onClick={onClick}/>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 auto-cols-min gap-12 mt-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-6 mt-8">
         {skillsToDisplay.map((skill, index) => (
           <div
             key={index}
@@ -88,9 +88,9 @@ function Skills() {
             <img
               src={skill.image}
               alt={skill.title}
-              className="w-10 h-10 mb-2"
+              className="w-12 h-12 mb-2"
             />
-            <h3 className="text-white font-semibold text-center">
+            <h3 className="text-white font-semibold text-center text-xs sm:text-sm">
               {skill.title}
             </h3>
           </div>

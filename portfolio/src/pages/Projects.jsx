@@ -1,8 +1,5 @@
 
 import TopThree from "../components/TopThree";
-
-
-
 function Projects () {
 
 
