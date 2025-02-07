@@ -22,11 +22,16 @@ A dedicated section to highlight my projects, with links to the project reposito
 
 Engaging, lightweight animations powered by Lottie SVG to enhance the user experience and visual interest.
 
-## 5. Firebase Integration:
+## 5. Skill Showcase:
+
+A dynamic Marquee component scrolls through my technical skills, such as HTML5, CSS3, JavaScript, React, and more, making my skill set visually engaging and accessible.
+The scrolling animation is designed for smooth interaction.
+
+## 6. Firebase Integration:
 
 The portfolio is deployed and hosted on Firebase, ensuring fast and reliable performance.
 
-## 6. Search with Error Handling:
+## 7. Search Functionality with Error Handling:
 
 The portfolio includes a search functionality with clear error messages if no results are found, improving the user experience when browsing your projects or skills.
 
