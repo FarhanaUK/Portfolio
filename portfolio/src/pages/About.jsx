@@ -1,52 +1,149 @@
-import laptop from '../../src/assets/laptop.json'
-import Lottie from "lottie-react"
+import laptop from "../../src/assets/laptop.json";
+import Lottie from "lottie-react";
 
 function About() {
-    return (
-      <div 
-      className="flex flex-col md:flex-row text-white p-12 mx-4 mt-28 rounded-lg" >
-        <section className='md:w-1/2 space-y-6'>
-         
-      
-          <p className="mb-6 text-lg leading-relaxed">
-            Hello, and welcome to my portfolio! 
-              I’m Farhana, a Full Stack Developer with a passion for building intuitive and scalable web applications.  
+  return (
+    <div className="mb-6 text-lg leading-relaxed flex justify-center md:flex-row text-white p-12 mx-4 mt-28">
+      <section className="md:w-3/2 space-y-6">
+        <div className="flex flex-col items-center border-2 border-solid rounded-lg bg-slate-900 p-6">
+          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-cyan-500 w-1/3 rounded-lg px-4">
+            My Journey into Web Development
+          </h1>
+          <p>
+            My journey into web development started with a simple question:{" "}
+            <span className="italic">"How do websites do that?" </span>
+            This curiosity sparked a deep dive into both front-end and back-end
+            technologies, leading me to hands-on projects and real-world
+            applications. Through my training at BloomTech, I developed
+            expertise in essential tools and frameworks that shape modern web
+            development:
           </p>
-          
-          <p className="mb-6 text-lg leading-relaxed">
-            My journey into web development started with an initial curiosity about how websites work, 
-            leading me to dive deep into both front-end and back-end technologies. Through my training at 
-            <span className="font-semibold">   BloomTech</span>,
-             I gained hands-on experience with JavaScript, React, Node.js, Express, and Tailwind CSS—tools that allow me to create dynamic, user-centered applications.
+
+          <br />
+          <div className="flex w-full md:flex-row items-start justify-between">
+    
+ 
+    <div className="w-full md:w-1/2">
+      <ul className="list-disc pl-6 text-lg">
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>Tailwind CSS</li>
+      </ul>
+      <p className="my-6">
+        These technologies allow me to build dynamic, user-friendly
+        applications that address real-world challenges and provide
+        seamless, interactive experiences.
+      </p>
+    </div>
+
+    
+    <div className="w-full md:w-1/2 flex justify-end items-start mt-[-70px] mb-[-70px]">
+      <Lottie
+        animationData={laptop}
+        style={{ width: "100%", maxWidth: "500px", height: "auto", maxHeight: "450px" }}
+      />
+    </div>
+
+  </div>
+</div>
+
+        <div className="border-2 border-solid rounded-lg p-6">
+          <h1 className="text-2xl leading-relaxed">Professional Experience</h1>
+          <p>
+            Before becoming a developer, I worked in customer service and as a
+            trainer at Amazon, where I honed skills like:
           </p>
-          
-          <p className="mb-6 text-lg leading-relaxed">
-            Before I became a developer, I worked in <span className="italic">customer service   </span>
-             and as a  <span className="italic">trainer</span> at <span className="font-semibold">Amazon,   </span>
-              where I developed strong skills in communication, empathy, and conflict resolution.
-               These experiences taught me how to listen to user needs and explain technical concepts in accessible ways-skills that are invaluable when creating effective solutions.
+
+          <br />
+
+          <ul className="list-disc pl-6 mb-6 text-lg">
+            <li>
+              Communication: Effectively conveying complex ideas to diverse
+              audiences.
+            </li>
+            <li>
+              Empathy: Understanding user pain points to develop better
+              solutions.
+            </li>
+            <li>
+              Conflict Resolution: Navigating challenges with creative
+              problem-solving.
+            </li>
+          </ul>
+          <div className="flex justify-center items-center md:w-1/2 mt-8 md:mt-0">
+            <Lottie
+              animationData={laptop}
+              style={{ width: "100%", maxWidth: "500px", height: "auto" }}
+            />
+          </div>
+
+          <p>
+            These experiences are invaluable in my development work, where I
+            prioritize user needs and accessibility.
           </p>
-          
-          <p className="mb-6 text-lg leading-relaxed">
-            Outside of coding, I’m passionate about personal development, fitness, and traveling.
-             Whether it’s through pilates or immersing myself in different cultures, I believe in growing both professionally and personally.  
-          </p>
-          
-          <p className="mb-6 text-lg leading-relaxed">
-            I’m driven by the challenge of solving complex problems with clean, efficient solutions,
-             whether it's designing a user interface or building robust back-end systems. I strive to create applications that are not only functional but also delight users.  
-          </p>
-          
-          <p className="text-lg leading-relaxed">
-            Thanks for checking out my portfolio! Feel free to connect with me or explore my projects.  
-          </p>
-        </section>
-        <div className='flex justify-center items-center md:w-1/2 mt-8 md:mt-0'>
-          <Lottie animationData={laptop}  style={{ width: '100%', maxWidth: '500px', height: 'auto'}} />
         </div>
-      </div>
-      
-    );
-  }
-  
-  export default About;
+        <div className="border-2 border-solid rounded-lg p-6">
+          <h1 className="text-2xl leading-relaxed">Outside of Coding</h1>
+          <p>
+            When I’m not coding, I’m focused on personal growth and staying
+            active. I’m passionate about:
+          </p>
+
+          <br />
+
+          <ul className="list-disc pl-6 mb-6 text-lg">
+            <li>
+              Personal Development: Always looking for ways to grow both
+              professionally and personally.
+            </li>
+            <li>Fitness: Pilates keeps me energized and focused</li>
+            <li>
+              Traveling: Exploring new cultures fuels my creativity and broadens
+              my perspective.
+            </li>
+          </ul>
+          <div className="flex justify-center items-center md:w-1/2 mt-8 md:mt-0">
+            <Lottie
+              animationData={laptop}
+              style={{ width: "100%", maxWidth: "500px", height: "auto" }}
+            />
+          </div>
+        </div>
+
+        <div className="border-2 border-solid rounded-lg p-6">
+          <h1 className="text-2xl leading-relaxed">My Philosophy</h1>
+          <p>
+            I’m driven by the challenge of solving complex problems with clean,
+            efficient solutions. Whether it’s designing an intuitive user
+            interface or building a powerful back-end, I always aim to deliver
+            applications that not only work well but also delight users.
+          </p>
+          <div className="flex justify-center items-center md:w-1/2 mt-8 md:mt-0">
+            <Lottie
+              animationData={laptop}
+              style={{ width: "100%", maxWidth: "500px", height: "auto" }}
+            />
+          </div>
+        </div>
+
+        <div className="border-2 border-solid rounded-lg p-6">
+          <h1 className="text-2xl leading-relaxed">Let’s Connect!</h1>
+          <p>
+            Thank you for checking out my portfolio. If you’re interested in
+            collaborating or exploring my projects, feel free to get in touch!
+          </p>
+          <div className="flex justify-center items-center md:w-1/2 mt-8 md:mt-0">
+            <Lottie
+              animationData={laptop}
+              style={{ width: "100%", maxWidth: "500px", height: "auto" }}
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default About;

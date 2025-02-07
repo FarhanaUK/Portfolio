@@ -13,10 +13,10 @@ function TopThree({showHeader = true}) {
       image: "/1.png",
     },
     {
-      title: "AI Love Partner ",
+      title: "Portfolio",
       description:
-        "COMING SOON! This is a website that users can interact with an AI with memory.",
-      github: "https://github.com/FarhanaUK/ai-project",
+        "My portfolio showcasing my skills and projects, built with React, JavaScript, Tailwind CSS, and Firebase.",
+      github: "https://github.com/FarhanaUK/Portfolio",
       image: "/mypic.jpg",
     },
     {

@@ -7,19 +7,22 @@ function AboutMe() {
         <div className="w-full lg:w-2/3 px-4">
           <h1 className="text-3xl font-bold mb-4">About Me</h1>
           <p className="mb-4">
-            Hi, I’m Farhana Aktar, a passionate Full Stack Developer committed
-            to creating seamless web experiences. My journey began with a
-            curiosity for how websites work, which led me to dive into both
-            front-end and back-end development. Over time, I honed my skills in
-            technologies like React, Node.js, and Tailwind CSS, allowing me to
-            build responsive and dynamic web applications.
+          Hi! I’m a Full Stack Developer who’s obsessed with making things work (and work beautifully). 
+          My journey into software engineering started with a simple question:
+          “How do websites even do that?” One curiosity led to another, and before I knew it,
+          I was knee-deep in JavaScript, React, Node.js, and Tailwind CSS, figuring out how to turn ideas into interactive web experiences.
           </p>
           <p className="my-4">
-            I am driven by problem-solving and the opportunity to transform
-            ideas into functional, user-friendly solutions. Whether it’s
-            developing a sleek landing page or architecting a complex web
-            system, I am passionate about crafting innovative solutions that
-            make a real impact. Let’s build something amazing together!
+          I might have only a few projects under my belt right now, 
+          but each one is a stepping stone to mastering the craft. 
+          Software engineering, for me, isn’t just about writing code—it’s about solving problems, 
+          learning something new every day, and creating stuff that actually makes a difference. 
+          I get a real kick out of building things that people enjoy using, whether it's an elegant front-end or a solid back-end.
+          </p>
+          <p>
+          If you’re into clean, user-friendly apps and innovative solutions, 
+          we’re on the same page! Let’s build something fun together. 
+          (And yes, this portfolio you’re checking out right now is one of the things I’ve built. Sneaky, right?)
           </p>
         </div>
 
