@@ -12,7 +12,7 @@ The portfolio is fully responsive, adapting to various screen sizes for a seamle
 
 ## 2. Interactive UI:
 
-Built with React and Tailwind CSS, the interface is interactive and modern, allowing users to easily navigate through sections.
+Built with React and Tailwind CSS, the interface is designed to be sleek, responsive, and user-friendly. The interactive elements, such as hover effects, smooth transitions, and dynamic content, ensure a modern browsing experience. 
 
 ## 3. Project Showcase:
 
@@ -25,7 +25,6 @@ Engaging, lightweight animations powered by Lottie SVG to enhance the user exper
 ## 5. Skill Showcase:
 
 A dynamic Marquee component scrolls through my technical skills, such as HTML5, CSS3, JavaScript, React, and more, making my skill set visually engaging and accessible.
-The scrolling animation is designed for smooth interaction.
 
 ## 6. Firebase Integration:
 
@@ -37,7 +36,7 @@ The portfolio includes a search functionality with clear error messages if no re
 
 ## APP WORKFLOW:
 
-The workflow of my portfolio is designed for a smooth and intuitive user experience. It includes navigation links to dedicated pages such as "About Me," "Skills," and "Projects," allowing users to easily explore each section in detail. Additionally, visitors can download my Resume directly from the site. Each project listed on the "Projects" page features descriptions, and GitHub links, showcasing my work. The footer contains my contact information, including links to my LinkedIn, GitHub, and Email for easy communication. Hosted on Firebase, the site is fast, reliable, and fully responsive on both mobile and desktop devices. With built-in search functionality and error handling, users can quickly find what they’re looking for, ensuring a smooth navigation experience throughout.
+The workflow of my portfolio is designed for a smooth and intuitive user experience. It includes navigation links to dedicated pages such as "About," "Skills," and "Projects," allowing users to easily explore each page in detail. Additionally, visitors can download my Resume directly from the site. As they scroll down, the Skills Marquee dynamically displays technical abilities, Each project listed on the "Projects" page features descriptions, and GitHub links, showcasing my work. The footer contains my contact information, including links to my LinkedIn, GitHub, and Email for easy communication. Hosted on Firebase, the site is fast, reliable, and fully responsive on both mobile and desktop devices. With built-in search functionality and error handling, users can quickly find what they’re looking for, ensuring a smooth navigation experience throughout.
 
 # STACK
 
