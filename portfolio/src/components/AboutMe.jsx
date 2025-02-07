@@ -1,7 +1,9 @@
 function AboutMe() {
   return (
     <div className="flex justify-center items-center px-4 py-8">
-      <div className="flex flex-col lg:flex-row justify-between items-center bg-gradient-to-r from-neutral-300 to-neutral-900 shadow-[0px_20px_10px_rgba(0,0,0,1)] py-4 lg:py-8 w-full rounded-lg">
+      <div className="flex flex-col lg:flex-row justify-between items-center
+       bg-gradient-to-r from-neutral-200 to-neutral-700 md:from-neutral-300 md:to-neutral  
+      shadow-[0px_20px_10px_rgba(0,0,0,1)] py-4 lg:py-8 w-full rounded-lg">
         <div className="w-full lg:w-2/3 px-4">
           <h1 className="text-3xl font-bold mb-4">About Me</h1>
           <p className="mb-4">

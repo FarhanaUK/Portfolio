@@ -8,7 +8,6 @@ function TopThree({showHeader = true}) {
       description:
         "This app is a note-taking tool built as a Chrome extension, developed using front-end technologies.",
       github: "https://github.com/FarhanaUK/Note-X",
-      liveDemo: "dfdf",
       install:
         "https://chromewebstore.google.com/detail/note-x/fgmijdmcadjncmhkkchkjpnadnibfodn",
       image: "/1.png",
@@ -18,7 +17,6 @@ function TopThree({showHeader = true}) {
       description:
         "COMING SOON! This is a website that users can interact with an AI with memory.",
       github: "https://github.com/FarhanaUK/ai-project",
-      liveDemo: "sfdd",
       image: "/mypic.jpg",
     },
     {
@@ -26,14 +24,13 @@ function TopThree({showHeader = true}) {
       description:
         "COMING SOON! This is a website that users can interact with an AI with memory.",
       github: "https://github.com/FarhanaUK/ai-project",
-      liveDemo: "seefsdf",
       image: "/fantasy-characters-experiencing-love.jpg",
     },
 
   ];
 
   return (
-    <div className="p-8 sm:p-8">
+    <div className="p-8 sm:p-8 mb-4">
       {showHeader && <h1 className="flex justify-center text-3xl text-white font-bold ">Projects (Top 3)</h1>}
       <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         {projects.map((project, index) => (
@@ -64,19 +61,6 @@ function TopThree({showHeader = true}) {
                 >
                   GitHub
                 </a>
-                {project.liveDemo && (
-                  <>
-                    <span>|</span>
-                    <a
-                      href={project.liveDemo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-500 hover:text-blue-700 hover:underline"
-                    >
-                      Live Demo
-                    </a>
-                  </>
-                )}
 
                 {project.install && (
                   <>

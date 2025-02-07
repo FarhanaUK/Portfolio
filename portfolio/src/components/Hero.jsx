@@ -7,7 +7,7 @@ function Hero() {
       <h2 className="text-2xl sm:text-3xl mt-4">
         FULL STACK DEVELOPER
       </h2>
-      <p className="mt-4 w-full sm:w-2/5 md:w-4/5">
+      <p className="mt-4 w-full sm:w-3/5 md:w-2/5">
         Building seamless web experiences with creativity and code – From
         front-end to back-end, I bring your ideas to life!
       </p>

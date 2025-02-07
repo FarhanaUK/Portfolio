@@ -4,7 +4,7 @@ import Lottie from "lottie-react"
 function About() {
     return (
       <div 
-      className="flex flex-col md:flex-row bg-about-bg bg-cover bg-center text-white p-12 mx-4 mt-28 rounded-lg" >
+      className="flex flex-col md:flex-row text-white p-12 mx-4 mt-28 rounded-lg" >
         <section className='md:w-1/2 space-y-6'>
          
       
@@ -50,4 +50,3 @@ function About() {
   }
   
   export default About;
-  

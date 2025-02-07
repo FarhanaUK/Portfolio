@@ -17,7 +17,7 @@ const onSubmit = (evt) => {
 }
   
 return (
-    <div className='flex justify-center p-6'>
+    <div className='relative z-0 flex justify-center w-full'>
         <form onSubmit={onSubmit} className='flex flex-col item-center'>
         <div className='flex items-center'>
         <input
