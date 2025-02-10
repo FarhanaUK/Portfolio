@@ -7,11 +7,11 @@ function About() {
       <section className="md:w-2/3 space-y-6">
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
-          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg">
+          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg max-w-md mx-auto">
             My Journey Into Web Development
           </h1>
           <p>
-            My journey ianto web development started with a simple question:{" "}
+            My journey into web development started with a simple question:{" "}
             <span className="italic">"How do websites do that?" </span>
             This curiosity sparked a deep dive into both front-end and back-end
             technologies, leading me to hands-on projects and real-world
@@ -53,7 +53,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
-          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg">
+          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg max-w-md mx-auto">
             Professional Experience
           </h1>
           <p>
@@ -100,7 +100,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
-          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg">
+          <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg max-w-md mx-auto">
             Outside of Coding
           </h1>
           <p>
@@ -141,7 +141,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
-        <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg">
+        <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg max-w-md mx-auto">
             My Philosophy
           </h1>
           <p>
@@ -169,7 +169,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
-        <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg">
+        <h1 className="flex justify-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 rounded-lg max-w-md mx-auto">
             Let’s Connect!
           </h1>
           <p>
