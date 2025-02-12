@@ -1,11 +1,15 @@
 import laptop from "../../src/assets/laptop.json";
+import Amazon from "../../src/assets/Amazon.json"
 import Lottie from "lottie-react";
+import {Link} from 'react-router-dom'
+
 
 function About() {
   return (
     <div className="mb-6 text-lg leading-relaxed flex justify-center md:flex-row text-white p-6 md:p-12 mx-4 mt-28">
       <section className="md:w-2/3 space-y-6">
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
+        <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
         <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
   My Journey Into Web Development
 </h1>
@@ -32,7 +36,12 @@ function About() {
               <p className="my-6">
                 These technologies allow me to build dynamic, user-friendly
                 applications that address real-world challenges and provide
-                seamless, interactive experiences.
+                seamless, interactive experiences. Check out my all the technical skills here: <Link
+                className="italic hover:underline hover:text-pink-500"
+                to="/skills"
+              >
+                Skills
+              </Link>
               </p>
             </div>
 
@@ -61,7 +70,7 @@ function About() {
           </p>
 
           <br />
-          <div className="flex flex-col md:flex-row w-full items-start justify-between">
+          <div className="flex flex-col md:flex-row-reverse w-full items-start justify-between">
             <div className="w-full md:w-1/2">
               <ul className="list-disc pl-6 text-lg">
                 <li>
@@ -83,9 +92,9 @@ function About() {
               </p>
             </div>
 
-            <div className="w-full md:w-1/2 flex justify-end items-start md:mt-[-70px] md:mb-[-70px]">
+            <div className="w-full md:w-1/2 flex justify-start items-start md:mt-[-70px] md:mb-[-70px] px-4">
               <Lottie
-                animationData={laptop}
+                animationData={Amazon}
                 style={{
                   width: "100%",
                   maxWidth: "500px",
@@ -98,7 +107,7 @@ function About() {
         </div>
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
-        <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
+            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
         <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
         Outside of Coding
           </h1>
@@ -177,7 +186,7 @@ function About() {
           </p>
 
           <br />
-          <div className="flex w-full md:flex-row items-start justify-between">
+          <div className="flex w-full md:flex-row-reverse items-start justify-between">
           <div className="w-full md:w-1/2 flex justify-end items-start md:mt-[-70px] md:mb-[-70px]">
               <Lottie
                 animationData={laptop}
