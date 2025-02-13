@@ -9,11 +9,11 @@ import {Link} from 'react-router-dom'
 
 function About() {
   return (
-    <div className="mb-6 text-lg leading-relaxed flex justify-center md:flex-row text-white p-6 md:p-12 mx-4 mt-28">
+    <div className="mb-6 text-lg leading-relaxed flex justify-center md:flex-row text-white p-6 md:p-12 mx-4 mt-5">
       <section className="md:w-2/3 space-y-6">
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
-        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
+        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-cyan-500 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
   My Journey Into Web Development
 </h1>
           <p>
@@ -64,7 +64,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
-        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
+        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-cyan-500 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
         Professional Experience
           </h1>
           <p>
@@ -111,7 +111,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
             <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
-        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
+        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-cyan-500 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
         Outside of Coding
           </h1>
           <p>
@@ -152,7 +152,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
-        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
+        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-cyan-500 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
         My Philosophy
           </h1>
           <p>
@@ -180,7 +180,7 @@ function About() {
 
         <div className="flex flex-col items-center border border-indigo-900 rounded-lg bg-slate-900 p-6 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
-        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-indigo-900 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
+        <h1 className="text-center text-2xl leading-relaxed mb-4 bg-cyan-500 w-full md:w-2/3 lg:w-1/2 max-w-lg mx-auto rounded-lg py-1">
    Let’s Connect!
           </h1>
           <p>

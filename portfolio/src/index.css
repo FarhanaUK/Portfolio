@@ -7,12 +7,16 @@
   
         border-color: white;
     }
-    25% {
+    20% {
         
         border-color: #1A237E;
     }
-    50% {
+    40% {
         border-color: #00BCD4;
+    }
+    80% {
+        
+        border-color: #E91E63;
     }
     100% {
         
