@@ -5,6 +5,7 @@ function Skills() {
 
   const [search, setSearch] = useState("")
   const [filteredSkills, setFilteredSkills] = useState([])
+  const [error, setError] = useState(false)
 
 
   const skills = [
@@ -55,23 +56,30 @@ function Skills() {
 
 
 
-  const handleSearch = () => {
-    if (search) {
-      setFilteredSkills(
-        skills.filter((skill) =>
-          skill.title.toLowerCase().includes(search.toLowerCase())
-        )
-      );
-    } else {
-      setFilteredSkills(skills);
-    }
-  };
+const handleSearch = () => {
+if(search) {
+  const matches = skills.filter(skill =>
+    skill.title.toLowerCase().includes(search.toLowerCase())
+  )
+  setFilteredSkills(matches)
 
-  const onClick = () => {
-    setFilteredSkills(skills)
+  if (matches.length === 0) {
+    setError(true);
+  } else {
+    setError(false);
   }
-       
+} else {
+  setFilteredSkills(skills);
+  setError(false);
+}
+}
 
+
+const onClick = () => {
+  setSearch("")
+  setFilteredSkills(skills)
+  setError(false)
+}
  const skillsToDisplay = filteredSkills.length > 0 ? filteredSkills : skills
   return (
     <div className="p-8">
@@ -79,7 +87,7 @@ function Skills() {
         <SearchSkills value={search} setValue={setSearch} handleSearch={handleSearch} onClick={onClick}/>
       </div>
 
-      {filteredSkills.length === 0 && (<div className='absolute top-52 left-0 w-full text-red-500 text-center'>"Oops! I haven't learned this skill yet, but I'm constantly improving and adding new skills!"</div>)}
+      {error && (<div className='absolute top-52 left-0 w-full text-red-500 text-center'>"Oops! I haven't learned this skill yet, but I'm constantly improving and adding new skills!"</div>)}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-6 mt-24">
         {skillsToDisplay.map((skill, index) => (
           <div
