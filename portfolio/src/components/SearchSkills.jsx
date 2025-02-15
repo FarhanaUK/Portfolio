@@ -26,14 +26,14 @@ return (
         type="search"
         onChange={onChange}
         placeholder='Search skills...'
-        className='bg-slate-800 h-10 p-2 border border-cyan-500 rounded-l-lg focus:outline-none text-slate-200'
+        className='bg-slate-800 h-10 p-2 border border-indigo-500 rounded-l-lg focus:outline-none text-slate-200'
 
         
         />  
         <button
         onClick={handleSearch} 
         type="button" 
-        className='text-white border border-cyan-500 rounded-r-lg w-12 h-10 flex items-center justify-center bg-indigo-900' >
+        className='text-white border border-indigo-500 rounded-r-lg w-12 h-10 flex items-center justify-center bg-indigo-900' >
         <FaSearch />
         </button>
         </div>
