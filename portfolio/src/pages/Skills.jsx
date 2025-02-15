@@ -79,8 +79,8 @@ function Skills() {
         <SearchSkills value={search} setValue={setSearch} handleSearch={handleSearch} onClick={onClick}/>
       </div>
 
-      {filteredSkills.length === 0 && search && (<p className='text-red-500 text-center mt-4'>Oops, looks like I am yet to learn this skill</p>)}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-6 mt-8">
+      {filteredSkills.length === 0 && search && (<div className='absolute top-52 left-0 w-full text-red-500 text-center'>"Oops! I haven't learned this skill yet, but I'm constantly improving and adding new skills!"</div>)}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-6 mt-24">
         {skillsToDisplay.map((skill, index) => (
           <div
             key={index}
