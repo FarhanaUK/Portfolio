@@ -56,7 +56,8 @@ function Skills() {
 
 
 
-const handleSearch = () => {
+const handleSearch = (evt) => {
+  evt.preventDefault()
 if(search) {
   const matches = skills.filter(skill =>
     skill.title.toLowerCase().includes(search.toLowerCase())
@@ -75,10 +76,12 @@ if(search) {
 }
 
 
-const onClick = () => {
+const onClick = (evt) => {
+  evt.preventDefault()
   setSearch("")
   setFilteredSkills(skills)
   setError(false)
+
 }
  const skillsToDisplay = filteredSkills.length > 0 ? filteredSkills : skills
   return (
@@ -87,7 +90,7 @@ const onClick = () => {
         <SearchSkills value={search} setValue={setSearch} handleSearch={handleSearch} onClick={onClick}/>
       </div>
 
-      {error && (<div className='absolute top-52 left-0 w-full text-red-500 text-center'>"Oops! I haven't learned this skill yet, but I'm constantly improving and adding new skills!"</div>)}
+      {error && (<div className='absolute top-52 left-0 w-full text-red-500 text-center text-xs sm:text-sm'>"Oops! I haven't learned this skill yet, but I'm constantly improving and adding new skills!"</div>)}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-6 mt-24">
         {skillsToDisplay.map((skill, index) => (
           <div

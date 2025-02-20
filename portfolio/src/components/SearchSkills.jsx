@@ -12,13 +12,11 @@ const onChange = (evt) => {
 
 
 
-const onSubmit = (evt) => {
-    evt.preventDefault()
-}
+
   
 return (
     <div className='relative z-0 flex justify-center w-full'>
-        <form onSubmit={onSubmit} className='flex flex-col item-center'>
+        <form onSubmit={handleSearch} className='flex flex-col item-center'>
         <div className='flex items-center'>
         <input
         value={value}
@@ -31,13 +29,13 @@ return (
         
         />  
         <button
-        onClick={handleSearch} 
+        onClick={handleSearch}
         type="button" 
         className='text-white border border-indigo-500 rounded-r-lg w-12 h-10 flex items-center justify-center bg-indigo-900' >
         <FaSearch />
         </button>
         </div>
-        <button onClick={onClick} className='mt-2 text-slate-400 hover:text-white'>Show All</button>
+        <button className='mt-2 text-slate-400 hover:text-white'>Show All</button>
         </form>
     </div>
 )
