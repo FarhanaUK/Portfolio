@@ -39,7 +39,7 @@ function About() {
               <p className="my-6">
                 These technologies allow me to build dynamic, user-friendly
                 applications that address real-world challenges and provide
-                seamless, interactive experiences. Check out my all the technical skills here: <Link
+                seamless, interactive experiences. Check out all my technical skills here: <Link
                 className="italic hover:underline hover:text-pink-500"
                 to="/skills"
               >

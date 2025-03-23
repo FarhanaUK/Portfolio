@@ -1,5 +1,5 @@
 
-import AboutMe from './components/AboutMe'
+
 import Footer from './components/Footer'
 import Hero from '../src/components/Hero'
 import TopThree from './components/TopThree'
@@ -25,7 +25,6 @@ const App = () => {
               element={
                 <>
                   <Hero />
-                  <AboutMe />
                   <Marquee />
                   <TopThree />    
                 </>

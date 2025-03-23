@@ -30,12 +30,12 @@ return (
         />  
         <button
         onClick={handleSearch}
-        type="button" 
+        type="submit" 
         className='text-white border border-indigo-500 rounded-r-lg w-12 h-10 flex items-center justify-center bg-indigo-900' >
         <FaSearch />
         </button>
         </div>
-        <button className='mt-2 text-slate-400 hover:text-white'>Show All</button>
+        <button onClick={onClick} className='mt-2 text-slate-400 hover:text-white'>Show All</button>
         </form>
     </div>
 )
